@@ -5,18 +5,215 @@
 
 	<body>
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+ 
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--basic" role="banner">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+  <div class="usa-logo" id="basic-logo">
+    <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">CDFI: Access for All</a></em>
+  </div>
+  <button class="usa-menu-btn">Menu</button>
+</div>
+<!--<nav role="navigation" class="usa-nav">
+      <button class="usa-nav__close"><img src="/assets/img/close.svg" alt="close"></button>
+<ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item">
+    <button class="usa-accordion__button usa-nav__link  usa-current" aria-expanded="false" aria-controls="basic-nav-section-one"><span>Current section</span></button>
+    <ul id="basic-nav-section-one" class="usa-nav__submenu"><li class="usa-nav__submenu-item">
+              <a href="#">Navigation link</a>
+            </li><li class="usa-nav__submenu-item">
+              <a href="#">Navigation link</a>
+            </li><li class="usa-nav__submenu-item">
+              <a href="#">Navigation link</a>
+            </li></ul></li><li class="usa-nav__primary-item">
+    <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="basic-nav-section-two"><span>Section</span></button>
+    <ul id="basic-nav-section-two" class="usa-nav__submenu"><li class="usa-nav__submenu-item">
+              <a href="#">Navigation link</a>
+            </li><li class="usa-nav__submenu-item">
+              <a href="#">Navigation link</a>
+            </li><li class="usa-nav__submenu-item">
+              <a href="#">Navigation link</a>
+            </li></ul></li><li class="usa-nav__primary-item">
+    <a class="usa-nav__link" href="javascript:void(0)"><span>Simple link</span></a>
+    </li></ul>
+</nav>-->
+  </div>
+</header>
 
-		{% include "components/footer.njk" %}
+<main id="main-content">
+
+<section class="grid-container usa-section">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+       <img src="/_includes/assets/img/cdfi_300.jpg" alt="CDFI LOGO">
+      </div>
+      <div class="tablet:grid-col-8 usa-prose margin-top-9 purply">
+
+        <p><span class="font-mono-lg">U.S. DEPARTMENT OF THE TREASURY</span>
+		<hr>
+<span class="font-mono-lg">COMMUNITY DEVELOPMENT FINANCIAL INSTITUTIONS FUND</span></p>
+
+      </div>
+	
+    </div>
+	
+  </section>
+  <section class="usa-section--dark purply-bg" id="about">
+  <div class="grid-container padding-top-4">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+        <h2 class="font-sans-xl margin-top-0 tablet:margin-bottom-0">Access for All: Expanding CDFI Impact in the Disability Community  </h2>
+      </div>
+      <div class="tablet:grid-col-8 usa-prose">
+        <p>“Access for All” is a training and technical assistance series offered through the Community Development Financial Institutions Fund’s (CDFI Fund) Capacity Building Initiative to increase the impact and reach of CDFIs in support of the economic development goals of people with disabilities. Through the “Access for All” series, the CDFI Fund will endeavor to increase the number of CDFIs serving individuals with disabilities and, ultimately, increase the impact and reach of CDFIs in the disability community. </p>
+<p>The training will be provided by BCT Partners in partnership with a team of disability and CDFI experts.
+</p>
+
+      </div>
+	 
+    </div>
+	 <hr>
+	</div>
+
+	  <div class="grid-container usa-section">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+        <h2 class="font-sans-xl margin-top-0 tablet:margin-bottom-0">What is included?</h2>
+      </div>
+      <div class="tablet:grid-col-8 usa-prose">
+        <p>Organizations that participate in the “Access for All: Expanding CDFI Impact in the Disability Community” series will have access to the following:
+<ul>
+<li>In-person workshops that bring together for knowledge sharing, skill building, and practical action planning.
+<li>Webinars on a variety of topics related to understanding and meeting the unique product and customer service needs of individuals with disabilities.
+<li>Peer-to-peer learning opportunities.
+<li>Individualized technical assistance, focused on addressing your organization’s capacity-building needs regarding serving individuals with disabilities.
+Who can join?
+Eligible participants include:
+<li>Certified CDFIs; and
+<li>Non-certified organizations that have received a Community Development Financial Institutions Program or Native American CDFI Assistance Program Technical Assistance award
+</ul>
+</p>
+
+      </div>
+	 
+    </div>
+	 <hr>
+	</div>
+
+	  <div class="grid-container usa-section">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+        <h2 class="font-sans-xl margin-top-0 tablet:margin-bottom-0">Who can join? </h2>
+      </div>
+      <div class="tablet:grid-col-8 usa-prose">
+        <p>Eligible participants include:
+		<ul>
+		<li>Certified CDFIs; and
+<li>Non-certified organizations that have received a Community Development Financial Institutions Program or Native American CDFI Assistance Program Technical Assistance award
+</ul>
+
+</p>
+
+      </div>
+	 
+    </div>
+
+	</div>
+
+  </section>
+  
+
+  <section class="usa-graphic-list usa-section usa-section" id="trainings">
+  <div class="grid-container">
+
+<h2 class="font-sans-xl margin-top-0 tablet:margin-bottom-0">Upcoming Training Events</h2>
+<p>The following in-person and virtual training events will be offered.</p>
+<hr>
+<h3>Access for All: Expanding CDFI Impact in the Disability Community</h3>
+<p><b>Date & Time:</b> September 25-26, 2019 </p>
+<p><b>Description:</b> This training will take place in Philadelphia, PA. This event is limited to 35 attendees. Two nights of lodging are included for attendees and limited travel scholarships are available on a first-come basis. Topics to be covered include: partnerships between CDFI and disability organizations;</p>
+<p>CDFI capital investments; and finance investments that support the strengthening of communities to be more accessible and inclusive for all. View the draft agenda: [link to PDF].</p>
+<p><b>Training Type:</b> In-Person [Webinar, In-Person, Virtual Meeting]</p>
+<p><b>Registration:</b> <a href="https://umassboston.qualtrics.com/jfe/form/SV_cPdnRNa4pOpYkw5">https://umassboston.qualtrics.com/jfe/form/SV_cPdnRNa4pOpYkw5 </a></p> 
+<p>Registration closes TBD. Spaces are limited to 35 attendees with preference given to organizations in the Northeast region of the country. You will receive a confirmation email once you have been approved to attend the training and book travel arrangements.<em> Please note that a webinar on September 12th at 2:00 EDT is a required prerequisite for attendees of the September 25-26th Philadelphia in-person training. More details will be forthcoming in the registration confirmation.</em></p>
+<hr>
+
+<h3>Access for All: Expanding CDFI Impact in the Disability Community</h3>
+<p><b>Date & Time:</b> November 6-7, 2019</p>
+<p><b>Description:</b> This training will take place in New Orleans, Louisiana. This event is limited to 35 attendees. Two nights of lodging are included for attendees and limited travel scholarships are available on a first-come basis. Topics to be covered include: partnerships between CDFI and disability organizations; CDFI capital investments; and finance investments that support the strengthening of communities to be more accessible and inclusive for all. View the draft agenda: [link to PDF].</p>
+<p><b>Training Type:</b> In-Person [Webinar, In-Person, Virtual Meeting]</p>
+<p><b>Registration:</b> TBD</p>
+<p>Registration closes TBD. Spaces are limited to 35 attendees with preference given to organizations in the Northeast region of the country. You will receive a confirmation email once you have been approved to attend the training and book travel arrangements. <em>Please note that a webinar on [TBD] is a required prerequisite for attendees of the November 6th-7th New Orleans in-person training. More details will be forthcoming in the registration confirmation.</em></p>
+<hr>
+<h3>Access for All: Expanding CDFI Impact in the Disability Community</h3>
+<p><b>Date & Time:</b> December 4-5, 2019</p>
+<p><b>Description:</b> This training will take place in Los Angeles, California. This event is limited to 35 attendees. Two nights of lodging are included for attendees and limited travel scholarships are available on a first-come basis. Topics to be covered include: partnerships between CDFI and disability organizations; CDFI capital investments; and finance investments that support the strengthening of communities to be more accessible and inclusive for all. View the draft agenda: [link to PDF].</p>
+<p>
+<b>Training Type:</b> In-Person [Webinar, In-Person, Virtual Meeting]<p>
+<p><b>Registration:</b> TBD</p>
+<p>Registration closes TBD. Spaces are limited to 35 attendees with preference given to organizations in the Northeast region of the country. You will receive a confirmation email once you have been approved to attend the training and book travel arrangements. <em>Please note that a webinar on [TBD] is a required prerequisite for attendees of the December 4th-5th Los Angeles in-person training. More details will be forthcoming in the registration confirmation.</em></p>
+<hr>
+
+<h3>CDFI Staff Training on Disability Etiquette, Disability Accommodations/Self-Assessment Tool</h3>
+<p><b>Date & Time:</b> December 9, 2019 (Time TBD)</p>
+<p><b>Description:</b> The focus of the webinar is to increase CDFI staff comfort, confidence and competence in working with individuals with disabilities seeking services. The training will offer tips and strategies for interacting with people with disabilities seeking economic growth and opportunity through CDFI services. Content includes basic etiquette for working with people with disabilities and information/tools for providing accommodations within CDFI services in the areas of interpersonal interactions, opening opportunity for services provision, and processing service coordination.</p>
+<p><b>Training Type:</b> Webinar [Webinar, In-Person, Virtual Meeting]</p>
+<p><b>Registration:</b> TBD</p>
+<hr>
+
+<h3>Social Security/Medicaid/ABLE Accounts and Work Incentives</h3>
+<p><b>Date & Time:</b> December 16, 2019 (Time TBD)</p>
+<p><b>Description:</b> Profile case scenarios and leveraging effects with CDFI products.</p>
+<p><b>Training Type:</b> Webinar [Webinar, In-Person, Virtual Meeting]</p>
+<p><b>Registration:</b> TBD</p>
+<hr>
+
+<h3>Workforce/Employment Innovations in CDFI Industry</h3>
+<p><b>Date & Time:</b> January 13, 2020 (Time TBD)</p>
+<p><b>Description:</b> This webinar will address the Workforce Innovations and Opportunities Act (WIOA) relevance and opportunities for the CDFI industry. Mr. Thelin will provide an overview of WIOA and Title IV of the Act (Rehabilitation Act of 1973, amended). These changes offer an opportunity for CDFIs to benefit from partnerships with WIOA entities (Workforce, Vocational Rehabilitation, Adult Education). Focused content will address how strategic partnerships between CDFI and WIOA entities can impact individuals in terms of career-oriented outcomes, salary increases, and career ladder opportunities that result in quality of life associated with fiscal security, savings, mortgage capacity, etc.</p>
+<p><b>Training Type:</b> Webinar [Webinar, In-Person, Virtual Meeting]</p>
+<p><b>Registration:</b> TBD</p>
+<hr>
+<h3>Affordable Accessible Housing and Long-term Supports</h3>
+<p><b>Date & Time:</b> January 20, 2020 (Time TBD)</p>
+<p><b>Description:</b> Profile leveraging of service dollars and loan funds for inclusive/neighborhood-based housing development. Includes technical content on Medicaid funded long-term care certifications if required by resident.</p>
+<p><b>Training Type:</b> Webinar [Webinar, In-Person, Virtual Meeting]</p>
+<p><b>Registration:</b> TBD</p>
+
+
+
+    
+    
+  </div>
+</section>
+
+
+  <section id="ta" class="usa-section goldy-bg">
+    <div class="grid-container">
+<h2>Technical Assistance</h2>
+<p>“Access for All” includes opportunities for CDFIs to access subject matter experts for individualized technical assistance (TA) and as well as opportunities for peer-to-peer knowledge exchange through a community of practice. More information about the technical assistance opportunities will be announced. 
+Scholarships</p>
+<p>For the in-person training, BCT Partners will include the lodging for everyone attending the training. In addition, there will be scholarships available to fund the transportation to/ from the in-person meeting for qualified attendees. </p>
+<p><b>Transportation:</b> Upon registering for a training, registrants may request a transportation scholarship. BCT Partners will honor up to 25 scholarships per training on a first-come, first-served basis. The travel scholarships will cover up to $450 in air, train or motor vehicle transportation.</p>
+
+<h2>Who are the Training Providers?</h2>
+<p>The CDFI Fund has selected BCT Partners and other partnering organizations to deliver training and technical assistance for this initiative. Learn more about the content experts below.</p>
+<p><a href="https://www.bctpartners.com/"><img src="/_includes/assets/img/bctp.webp" alt="BCT Partners"></a></p> 
+<p>BCT Partners is a national, multi-disciplinary consulting firm that delivers a full range of research, consulting, training, technology, and analytics services. Our mission is to provide insights about diverse people that lead to equity. Our vision is a world where a greater understanding of diverse people leads to equity. By 2022, we endeavor to be a national leader in helping organizations make better decisions, improve outcomes and amplify their impact toward a more equitable society. BCT is a minority-owned and operated, Federal 8(a) joint venture, small disadvantaged business enterprise and one of the leading firms in the country with expertise in the following markets: housing and community development, economic development, workforce development, children and families, health, pharmaceuticals and life sciences, education, and energy.</p>
+
+<h2>Related Resources & Announcements</h2>
+<p>XXXXXX [ this would contain links to PDFs or hyperlinks]</p>
+
+<h2>Contact Us</h2>
+<p>Please note that BCT Partners will follow up with opportunities to register for individual webinars and in-person workshops at a later date. </p>
+<p>If you have questions about this initiative or need assistance with the registration, please contact us [link to contact form or knowledgetranslation@umb.edu].</p>
+
+
+    </div>
+  </section>
+
 
 	</body>
 

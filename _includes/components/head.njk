@@ -4,11 +4,13 @@
   <title>{{ title or renderData.title or metadata.title }}</title>
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
+    {% include "assets/css/uswds.min.css" %}
     {% include "assets/css/inline.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
     {% include "assets/js/inline.js" %}
+      {% include "assets/js/uswds.min.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
 </head>
