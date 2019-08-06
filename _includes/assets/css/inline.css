@@ -3,6 +3,9 @@ body {font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,san
 .purply-bg {background-color:#5372b5;}
 .goldy {color: #f5af35;}
 .goldy-bg {background-color: #F9E3C2;}
+.goldy-light-bg {background-color: #FEF3E2;}
+
+.purply-light-bg {background-color: #C7CCDC;}
 
 .usa-section--dark h1, .usa-section--dark h2, .usa-section--dark h3, .usa-section--dark h4, .usa-section--dark h5, .usa-section--dark h6 {color: white;}
 
